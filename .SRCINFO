@@ -1,0 +1,26 @@
+pkgbase = python-jax-rocm-bin
+	pkgdesc = XLA library for JAX
+	pkgver = 0.4.25
+	pkgrel = 1
+	url = https://github.com/ROCm/jax
+	arch = x86_64
+	license = Apache
+	makedepends = python-build
+	makedepends = python-installer
+	makedepends = python-wheel
+	depends = absl-py
+	depends = miopen
+	depends = python-jaxlib
+	depends = python-numpy
+	depends = python-opt_einsum
+	depends = python-scipy
+	depends = python-six
+	depends = python
+	depends = rccl
+	depends = rocm-hip-runtime
+	provides = python-jax=0.4.25
+	conflicts = python-jax
+	source = https://github.com/ROCm/jax/archive/refs/tags/jaxlib-v0.4.25.tar.gz
+	b2sums = 62adc0b2a10923e4a28b9c73571683c8fa5e37b48a87779129fd8b158102529b44433380e158f8dc66813998d5fb72cc098c07ef56706ec33b647e5d07d0f86a
+
+pkgname = python-jax-rocm-bin
